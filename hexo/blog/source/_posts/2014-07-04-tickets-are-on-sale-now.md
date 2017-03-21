@@ -45,16 +45,16 @@ The second day will teach you all the ins and outs of git to become really produ
 
 Take a look at the [detailed workshop description](http://thoughtram.io/#trainings) to get a feel for the covered topics.
 
-##Why take this training?
+## Why take this training?
 
 - This course will make you more productive
 - It will save you lots of time and money. Every day.
 - You'll get **a six month micro plan for github.com**
 - You get the chance to meet our special guest **Mike Adolphs** from GitHub
 
-![Mike from github](http://thoughtram.io/images/9328f926.mike.png)
+[Mike from github](/images/9328f926.mike.png)
 
-##Be quick!
+## Be quick!
 
 The first eight day tickets will be sold as a special **early bird offer** for **350.00 €** per day or **650.00 €** for both days combined. Make sure to grab your ticket now.
 
