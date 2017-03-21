@@ -65,7 +65,7 @@ This happens because when a `$digest` cycle is triggered, Angular processes all 
 
 Here's a running example of the code described above:
 
-{% include plunk.html url="http://embed.plnkr.co/MGz5NrK1HKOy62fyVtmU/preview" %}
+### TODO plunk
 
 ## The problem with too many watchers
 
