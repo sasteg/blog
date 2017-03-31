@@ -76,7 +76,7 @@ In the described scenario our Observable is what we like to refer to as short-li
 
 However, we can totally have Observables that emit multiple values. Think about working with websockets for instance. We may have an array that builds up over time! Let's simulate an Observable that emits an array of numbers. But instead of emitting just a single array once, it will emit an array every time a new item was added. To not let the array grow infinitely we will limit it to the last five items.
 
-{% codeblock js %}{% raw %}
+{% codeblock lang:js %}{% raw %}
 ...
 @Component({
   selector: 'my-app',
