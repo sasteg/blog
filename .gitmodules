@@ -1,0 +1,3 @@
+[submodule "themes/thtrm-theme"]
+	path = themes/thtrm-theme
+	url = https://github.com/sasteg/thtrm-theme.git
