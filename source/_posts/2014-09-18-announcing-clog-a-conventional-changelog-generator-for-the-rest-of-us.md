@@ -33,12 +33,31 @@ related_videos:
 At thoughtram we teach people how to master Git. We also teach them how to maintain a semantic history. That's a history where each commit groups a logical code change. Like a feature or a bugfix. You can go even further and follow a commit message convention to wrap up valuable meta data in the commit message. Once you follow a commit message convention, you can easily generate a nice changelog without any manual work.
 
 Let's take a look at such a commit message.
+###TODO Fix 
+{% codeblock lang:sh %} feat(ngInclude): add template url parameter to events
 
-### TODO highlight
+The src (i.e. the url of the template to load) is now provided to the $includeContentRequested, $includeContentLoaded and $includeContentError events.
+
+Closes #8453 Closes #8454
+
+{% endcodeblock %}
 
 If you look closely, you might notice a pattern behind this commit message. Let's annotate it to make things more clear.
+###TODO Fix
+{% codeblock lang:sh %}
 
-### TODO highlight
+                  component        commit title
+    commit type       /                /      
+            \        |                |
+             feat(ngInclude): add template url parameter to events
+        
+    body ->  The 'src` (i.e. the url of the template to load) is now provided to the
+             `$includeContentRequested`, `$includeContentLoaded` and `$includeContentError`
+             events.
+
+referenced -> Closes #8453 issues Closes #8454
+
+{% endcodeblock %}
 
 Notice how this commit message preserves valuable meta data among the plain message. Namely the `commit type` that can either be `feat`, `fix`, `docs`, `style`, `refactor`, `test` or `chore` to indicate the *type* of the change. What follows is the name of the *component* that was changed, wrapped in parenthesis. It also contains a short title and an optional body that must have a preceding blank line.
 
@@ -56,7 +75,9 @@ We want changelog generation to be usable for everyone with the most minimal foo
 
 clogs usage is quite simple. It follows the POSIX standard. Just invoke it with `clog --help` and you'll get this output.
 
-### TODO highlight
+{% codeblock lang:sh %}
+ Usage: clog [--repository= --setversion= --subtitle= --from= --to= --from-latest-tag] 
+ {% endcodeblock %}
 
 You can invoke `clog` without any parameter to generate a nice changelog for the entire history of your project. Provide the `--repository` parameter to set the URL of the github repository to make the changelog include links to the commits on github. 
 
