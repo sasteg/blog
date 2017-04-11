@@ -35,11 +35,22 @@ Your feature branch is already six commits ahead of master. You've been a good d
 meaningful semantical commits. But there's the thing: you are slowly realizing that this beast will
 still take some more time before it's really ready to be merged back into master. 
 
-### TODO fix highlight
+{% codeblock lang:ruby %}
+ m1-m2-m3-m4 (master) 
+                      \ 
+                        f1-f2-f3-f4-f5-f6(feature) 
+ {% endcodeblock %}
 
 What you also realize is that some parts are actually less coupled to the new feature. They could land in master earlier. Unfortunately the part that you want to port back into master earlier is in a commit somewhere in the middle of your six commits. Even worse, it also contains a change that relies on a previous commits of your feature branch. One could argue that you should have made that two commits in the first place, but then nobody is perfect.
 
-### TODO fix highlight
+{% codeblock lang:ruby %}
+ m1-m2-m3-m4 (master) 
+                      \ 
+                        f1-f2-f3-f4-f5-f6(feature) 
+                               ^ 
+                               | 
+                          mixed commit 
+{% endcodeblock %}
 
 At the time that you crafted the commit, you didn't foresee that you might come into a situation where you want to gradually bring the feature into master. Heck! You wouldn't have guessed that this whole thing could take us so long.
 
@@ -47,7 +58,11 @@ What you need is a way to go back in history, open up the commit and split it in
 
 Speaking in terms of a graph, we want to have it like this.
 
-### TODO fix highlight
+{% codeblock lang:ruby %}
+m1-m2-m3-m4 (master) 
+                    \
+                     f1-f2-f3a-f3b-f4-f5-f6(feature
+{% endcodeblock %}
 
 With the work splitted into two commits, we could just `cherry-pick` the precious bits into master.
 
