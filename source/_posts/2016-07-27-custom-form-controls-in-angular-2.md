@@ -39,12 +39,7 @@ There are many things that Angular helps us out with when creating forms. We've 
 
 His article inspired us and we would like to take it a step further and explore how to create custom form controls that integrate nicely with Angular's form APIs.
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Custom form control considerations
 

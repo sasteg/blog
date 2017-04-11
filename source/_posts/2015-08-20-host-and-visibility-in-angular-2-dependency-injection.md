@@ -33,12 +33,7 @@ In our article on [Dependency Injection in Angular](/angular/2015/05/18/dependen
 
 Even though we learned that Angular's new dependency injection is very flexible and solves pretty much all the problems we have with the dependency injection in AngularJS, there are still a couple of topics that we haven't discussed yet. One of them is how Angular treats the relationship between **host** and child injectors, and the other one is how the **visibility of dependencies** are handled. In this article we're going to explore exactly these two topics.
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Understanding host relationships
 

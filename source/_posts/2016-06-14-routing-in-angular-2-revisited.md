@@ -42,12 +42,7 @@ A long time ago we've written about [routing in Angular](/angular/2015/06/16/rou
 
 In this article we want to take a first look at the new and better APIs, touching on the most common scenarios when it comes to routing. We're going to explore how to define routes, linking to other routes, as well as accessing route parameters. Let's jump right into it!
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 
 ## Defining Routes

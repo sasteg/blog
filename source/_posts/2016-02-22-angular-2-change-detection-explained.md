@@ -34,12 +34,7 @@ related_videos:
 
 Now let's take a look at this beast.
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## What's Change Detection anyways?
 

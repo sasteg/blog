@@ -39,12 +39,7 @@ related_videos:
 
 
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Getting started with Angular 2.0.0
 

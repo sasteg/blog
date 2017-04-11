@@ -33,12 +33,7 @@ A couple of weeks ago, I had the honour to give a [talk](https://www.youtube.com
 
 **UPDATE:** We've written a follow-up article that discusses another option to make your app faster using [Zones in Angular](/angular/2017/02/02/making-your-angular-app-fast.html)
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Rendering 10000 draggable SVG boxes
 

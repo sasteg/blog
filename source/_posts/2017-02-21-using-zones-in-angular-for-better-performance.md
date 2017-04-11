@@ -36,12 +36,7 @@ That's why [Jordi Collell](https://twitter.com/galigan) pointed out that another
 
 **We want to say thank you for his contribution** and think that the solution he came up with deserves its own article. So in this article we're going to explore his plunk and explain how Jordi used Zones to make our demo application perform at almost 60 fps.
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Seeing it in action
 

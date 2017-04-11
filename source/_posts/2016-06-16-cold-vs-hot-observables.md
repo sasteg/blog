@@ -44,12 +44,7 @@ One of the most exciting topics around Angular is its relationship to Observable
 There's one particular area of Observables that we don't explicitly touch on in our workshop but that keeps coming up in questions every single time that we teach them.
 
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Hot vs Cold Observables
 

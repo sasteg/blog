@@ -38,12 +38,7 @@ If you've read our article series on everything dependency injection in Angular,
 
 **UPDATE**: Since Angular version 4.x `OpaqueToken` is considered deprecated in favour of `InjectionToken`. Learn about the differences [here](#injectiontoken-since-angular-4x).
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 Before we jump into the actual problem we want to solve, let's first recap the differences between a string token and a type token.
 

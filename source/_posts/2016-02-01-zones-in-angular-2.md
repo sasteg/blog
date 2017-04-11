@@ -37,12 +37,7 @@ In [Understanding Zones](/angular/2016/01/22/understanding-zones.html), we explo
 **UPDATE:** We've published another article that discusses how to [use Zones to make your Angular apps faster](/angular/2017/02/21/using-zones-in-angular-for-better-performance.html)
 
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Zones are a perfect fit for Angular
 

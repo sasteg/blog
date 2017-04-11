@@ -43,12 +43,7 @@ Angular comes with three different ways of building forms in our applications. T
 Hearing all these different solutions, it's kind of natural that there are also probably many different tools to reach the goal. This can be sometimes confusing and with this article we want to clarify a subset of form directives by focussing on template-driven forms in Angular.
 
 
-<div class="thtrm-toc is-sticky" markdown="1">
-### TABLE OF CONTENTS
-{:.no_toc}
-* TOC
-{:toc}
-</div>
+
 
 ## Activating new Form APIs
 
