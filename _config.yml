@@ -10,7 +10,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.thoughtram.io
 root: /
-permalink: :category/:year/:month/:day/:title/
+permalink: :category/:year/:month/:day/:title.html
 permalink_defaults:
 
 # Directory
